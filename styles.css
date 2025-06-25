@@ -39,12 +39,52 @@ body {
     cursor: pointer;
   }
   
+  .board div.ship {
+    background-color: #4682b4;
+    border: 2px solid #274472;
+  }
+  
+  .board div.preview {
+    background-color: #90ee90;
+    opacity: 0.7;
+    border: 2px dashed #228b22;
+  }
+  
   .board div.hit {
-    background-color: red;
+    background-color: #e74c3c !important;
+    border: 2px solid #b22222;
+    position: relative;
   }
   
   .board div.miss {
-    background-color: white;
+    background-color: #fff !important;
+    border: 2px solid #bbb;
+    position: relative;
+  }
+  
+  .board div:hover {
+    outline: 2px solid #32cd32;
+    z-index: 1;
+  }
+  
+  .board.disabled div {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .board-container h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #game-status {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #status-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    min-height: 1.5em;
   }
   
   #controls {
