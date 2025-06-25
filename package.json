@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "member-isaiah-santillan-battleship",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",

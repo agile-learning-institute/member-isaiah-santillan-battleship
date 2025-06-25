@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Battleship Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Battleship</h1>
+
+    <section id="game-status">
+      <p id="status-text">Place your ships to begin</p>
+      <button id="start-btn">Start Game</button>
+    </section>
+
+    <section id="boards">
+      <div class="board-container">
+        <h2>Your Board</h2>
+        <div id="player-board" class="board"></div>
+      </div>
+      <div class="board-container">
+        <h2>Enemy Board</h2>
+        <div id="computer-board" class="board"></div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <button id="randomize-btn">Randomize Ships</button>
+      <button id="reset-btn">Reset Game</button>
+    </section>
+  </main>
+
+  <script type="module" src="./src/index.js"></script>
+</body>
+</html>
