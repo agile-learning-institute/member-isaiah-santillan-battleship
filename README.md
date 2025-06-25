@@ -35,9 +35,9 @@ The project is designed for learning, fun, and as a demonstration of modern Java
    ```
 
 2. **Install dependencies:**
-
+   ```sh
    npm install
-
+   ```
 ---
 
 ## Running the Game Locally
